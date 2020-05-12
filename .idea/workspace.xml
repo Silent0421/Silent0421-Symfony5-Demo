@@ -1,32 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b220e47-ae3c-4223-8f34-e32121b0d7bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/SymfonycastsDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    <list default="true" id="3b220e47-ae3c-4223-8f34-e32121b0d7bd" name="Default Changelist" comment="Twig and simple controller added">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e61f67641b441bb3ee38e903c594d99cafa14b4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/3957b91a0d8450cea0115cfd5af69eac90d75897" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5d5cc43c07908e1476c934e4d03e47d43fb4fc3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/baef02989dedf0ec859f7bce087a69f29bef2b72" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3262e2a0879195bd6a727e90f768bc85ad79ffd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e17766cca3407ba620a8cef1c14d37208a74e8a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SymfonycastsDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SymfonycastsDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +64,16 @@
       <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
       <path value="$PROJECT_DIR$/vendor/symfony/flex" />
       <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/symfony/profiler-pack" />
     </include_path>
   </component>
   <component name="ProjectId" id="1b7zaz1vrIUfXKNTkEDrZvXxqXp" />
@@ -85,6 +86,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -93,6 +95,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -117,11 +120,72 @@
       <option name="presentableId" value="Default" />
       <updated>1587997986353</updated>
       <workItem from="1587997987669" duration="2377000" />
-      <workItem from="1588054890496" duration="6767000" />
+      <workItem from="1588054890496" duration="21925000" />
+      <workItem from="1588184276227" duration="247000" />
+      <workItem from="1588263643540" duration="1191000" />
+      <workItem from="1588265638256" duration="18949000" />
+      <workItem from="1588583454160" duration="28401000" />
+      <workItem from="1588821072766" duration="1951000" />
+      <workItem from="1588886541686" duration="1846000" />
+      <workItem from="1589273445283" duration="4731000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1588132916069</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588132916069</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Twig and simple controller added">
+      <created>1588269326433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588269326434</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Some twig changes">
+      <created>1588279437235</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588279437235</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Twig and simple controller added" />
+    <MESSAGE value="Some twig changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some twig changes" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="558" y="149" width="860" height="807" key="CommitChangelistDialog2" timestamp="1588279437048">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="558" y="149" width="860" height="807" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1588279437048" />
+    <state x="1213" y="561" width="545" height="373" key="NewPhpClassDialog" timestamp="1588265917396">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1213" y="561" width="545" height="373" key="NewPhpClassDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1588265917396" />
+    <state x="829" y="190" key="SettingsEditor" timestamp="1588265686292">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="829" y="190" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1588265686292" />
+    <state x="588" y="277" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1588279439486">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="277" width="800" height="551" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1588279439486" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1589273671727">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1589273671727" />
+    <state x="1169" y="578" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588279397343">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1169" y="578" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1588279397343" />
   </component>
 </project>
